@@ -2,7 +2,7 @@ var ethers = require("ethers");
 
 var url = process.env.RINKEBY_RPC_URL;
 var provider = new ethers.providers.JsonRpcProvider(url);
-const campaignContractAddress = "0xc7E592086c37e3c99b2DcEC9E8Ff9d567af024b8";
+const campaignContractAddress = "0x5c91CA95d1AA821C9ae058939BF4669533a0e343";
 const factoryContractAddress = "0x76Bb5584f25b6C31bcf2EC4AfEECF1417A9E3E66";
 
 campaignCreated = {
